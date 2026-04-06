@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <UserDetails name="BIRAT LAMSAL" isOnline={true} />
-      <UserDetails name="BINIT LAMSAL" isOnline={false} />
+      <UserDetails name="BINIT LAMSAL" isOnline={false} hideOffline={true} />
     </div>
   );
 };
